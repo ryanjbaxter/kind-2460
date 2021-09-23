@@ -64,8 +64,6 @@ main() {
     # set KUBECONFIG to point to the cluster
     kubectl cluster-info --context kind-kind
 
-	done
-
     # teardown will happen automatically on exit
 }
 
